@@ -1,0 +1,8 @@
+<h1> {{ title | uppercase }}  </h1>
+<div class="list-group" *ngFor="let c of cocktails">
+  <li class="list-group-item"> Nom du cockail : {{ c.name }}</li>
+  <li class="list-group-item"> prix du cockail : {{ c.price }}</li>
+  <li class="list-group-item"> img du cockail : {{ c.img }}</li>
+  <br>
+</div>
+
